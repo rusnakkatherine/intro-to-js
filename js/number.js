@@ -34,5 +34,10 @@ console.log(div);
 var mult = a * d;
 console.log(mult);
 
-var e = '5'; //outputs letter five not digit 5
+var e = '20'; //outputs letter five not digit 5
 console.log(e); //(typeof e)->returns type of var'string'
+
+console.log(a === e); //strict comparison
+console.log(a == e); //loose comparison; truthy (true-ish)
+
+
